@@ -110,5 +110,4 @@ const mapStateToProps = createSelector(
 
 export default connect(mapStateToProps)(WhiteBoard);
 
-// https://www.google.com/url?sa=j&url=https%3A%2F%2Fmyviewboard.com%2F&uct=1505066474&usg=M_9ZgYDJHoN4JMuUPX8phY1rErY.
-// https://apis.google.com/additnow/u/0/l?applicationid=11040883588&__ls=ogb&__lu=https://myviewboard.com
+
