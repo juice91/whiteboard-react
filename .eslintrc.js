@@ -1,6 +1,15 @@
-const fs = require('fs');
+const fs = require('fs')
 
-const prettierOptions = JSON.parse(fs.readFileSync('./.prettierrc', 'utf8'));
+const prettierOptions = {
+  'printWidth': 80,
+  'tabWidth': 2,
+  'useTabs': false,
+  'semi': true,
+  'singleQuote': true,
+  'trailingComma': 'all'
+}
+
+//JSON.parse(fs.readFileSync('./.prettierrc', 'utf8'));
 
 module.exports = {
   parser: 'babel-eslint',
@@ -71,4 +80,4 @@ module.exports = {
       },
     },
   },
-};
+}

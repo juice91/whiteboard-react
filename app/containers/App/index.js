@@ -16,14 +16,15 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
+import FlexFullScreen from "../FlexFullScreen";
 
 export default function App() {
   return (
-    <div>
+    <FlexFullScreen>
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route component={NotFoundPage} />
       </Switch>
-    </div>
+    </FlexFullScreen>
   );
 }

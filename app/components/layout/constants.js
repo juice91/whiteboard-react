@@ -9,7 +9,8 @@
  * export const YOUR_ACTION_CONSTANT = 'yourproject/YourContainer/YOUR_ACTION_CONSTANT';
  */
 
+export const MOVING = 'layout/moving';
 
-export const CHECK_SESSION='APP/CHECK_SESSION';
-export const LOAD_SESSION_SUCCESS='APP/LOAD_SESSION_SUCCESS';
+export const POSITIONS = ['tl', 'tc', 'tr', 'cl', 'cc', 'cr', 'bl', 'bc', 'br'];
 
+export const TL = 'tl';

@@ -1,0 +1,21 @@
+
+
+.docker{
+  background: aqua;
+  display: flex;
+  z-index:10;
+}
+
+
+.tl{
+  margin-top: 0;
+  justify-self: left;
+}
+
+
+.bc{
+  justify-self: center;
+  margin-top: auto;
+  height: 20vh;
+width: 100%;
+}
